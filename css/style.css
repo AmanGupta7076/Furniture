@@ -515,7 +515,7 @@ nav li a:hover::before{
     #lara b{
         font-size: 1.8rem;
     }
-    #carry{
+    #carry, #hp, #matt{
         margin-top: 50px;
     }
     #alex{
