@@ -503,12 +503,10 @@ nav li a:hover::before{
     }
     #kelly h1{
         padding-top: 85px;
+        font-size: 5rem;
     }
     #maintain{
         padding-bottom: 0px;
-    }
-    .navbar-inverse .navbar-toggle{
-        margin-right: 50px;
     }
     .item{
         padding-left: 0px;
@@ -519,5 +517,10 @@ nav li a:hover::before{
     }
     #carry{
         margin-top: 50px;
+    }
+    #alex{
+        position: relative;
+        top: 0px;
+        left: 0px;
     }
 }
