@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inter,sans-serif;
+}
+
+html{
+    font-size: 20px;
+}
+.main{
+    height: 75vh;
+    width: 100%;
+    background-color: #3B5D50 !important;
+    position: relative;
+    z-index: 2;
+}
+
+/* first section */
+
+#mynavigation{
+    background-color: #3B5D50 !important;
+    border: none;
+}
+#mynavigation li a{
+    font-size: 1.8rem;
+}
+#mynavigation .navbar-brand{
+    color: #fff;
+    font-size: 4rem !important;
+    /* padding-top: 10px; */
+}
+#myNavbar .glyphicon{
+    color: #fff;
+    padding: 16px 0 0 20px;
+    font-size: 1.8rem;
+    /* margin-right: 10px; */
+}
+#myNavbar{
+    color: #6a6a6a;
+}
+
+.main ul{
+    /* background: red; */
+}
+
+nav li a{
+    overflow: hidden;
+    position: relative;
+}
+nav li a::before{
+    content: "";
+    width: 90%;
+    position: absolute;
+    left: -200px;
+    bottom: 0;
+    border-bottom: 4px solid #F9BF29;
+    transition-duration: .5s;
+}
+nav li a:hover::before{
+    left: 0px;
+}
+
+#kelly h1{
+    color: #fff;
+    font-size: 6rem;
+    padding-top: 150px;
+}
+#kelly button{
+    border-radius: 100px;
+    border: 2px solid grey;
+    background: none;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+}
+#kelly .edit{
+    background-color: goldenrod;
+    color: #000;
+    margin-right: 10px;
+    padding: 10px;
+    width: 150px;
+}
+#kelly p{
+    padding: 20px 0;
+    color: #ffffff80;
+    line-height: 2;
+}
+#killer img{
+    margin-top: 100px;
+    /* z-index: 1; */
+    
+}
+#kelly button:hover{
+    border: 2px solid #fff;
+}
+
+
+
+#killer::before{
+    content: "";
+    position: absolute;
+    background-image: url("../images/dots-light.svg");
+    top: 130px;
+    right: -40px;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+}
+
+.lion{
+    padding-bottom: 120px;
+}
+.boat{
+    bottom: -80px;
+}
+.fix{
+    padding-top: 30px;
+}
+
+
+/* second section */
+
+#genelia{
+    background-color: #f5f5f5f5;
+}
+#maintain, #alisa,#olivia, #carry, #hp, #lara{
+    margin-top: 150px;
+}
+#maintain p, #alisa p{
+    padding: 30px 0;
+    line-height: 2;
+}
+#maintain button, #matt button{
+    border-radius: 100px;
+    background-color: #2f2f2f;
+    color: #fff;
+    padding: 10px;
+    width: 130px;
+}
+#maintain button:hover, #matt button:hover{
+    background-color: #000;
+}
+.amy:hover .happy
+{
+    transform: translateY(-40px);
+    transition-duration: 1s;
+}
+.amy{
+    position: relative;
+}
+#maintain .cross img{
+    width: 25px;
+    height: 25px;
+    /* color: #fff; */
+}
+#maintain .cross{
+    opacity: 0;
+    border-radius: 20px;
+    width: 100%;
+    height: 10%;
+    /* left: 0; */
+    position: absolute;
+    bottom: -32px;
+    background-color: #DCE5E4;
+    transition-duration: .4s;
+    /* background: red; */
+}
+#maintain .cross img 
+{
+    margin-top: 250px;
+    position: absolute;
+    bottom: -10px;
+    background-color: #000;
+    /* margin: 0 auto; */
+    margin-left: -15px;
+    padding: 6px;
+    z-index: -1;
+    /* cursor: pointer; */
+    /* color: #fff; */
+    /* background: yellow; */
+}
+#maintain .amy:hover .cross
+{
+    opacity: .5;
+    height: 80%;
+}
+
+#maintain b{
+    font-size: 2rem;
+}
+
+.daniel{
+    margin-top: 150px;
+}
+.amy{
+    margin: 70px 0;
+}
+#maintain{
+    padding-bottom: 130px;
+}
+
+.brandon{
+    /* margin-top: 20px; */
+}
+
+#john{
+    margin-top: 100px;
+    padding-bottom: 200px;
+}
+#john button{
+    border-radius: 100px;
+    background-color: #2f2f2f;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.flutter input{
+    margin: 20px 0;
+}
+/* third section */
+
+
+#alisa{
+    position: relative;
+    z-index: 0;
+}
+.back-img::before{
+    content: "";
+    position: absolute;
+    background-image: url("../images/dots-yellow.svg");
+    top: -10px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+}
+
+.back-img img{
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+#times h1{
+    padding-top: 200px;
+}
+/* fourth section */
+
+#matt{
+    padding-left: 50px;
+}
+#matt p{
+    line-height: 2;
+    padding: 20px 0;
+}
+#matt li{
+    line-height: 2;
+    /* padding-top: 20px; */
+}
+#emily img{
+    border-radius: 30px;
+}
+#emily{
+    position: relative;
+}
+#alex{
+    position: absolute;
+    top: 200px;
+    left: 320px;
+}
+
+#emily::before{
+    position: absolute;
+    background-image: url("../images/dots-green.svg");
+    content: "";
+    top: -50px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    /* z-index: -1; */
+}
+
+/* fifth section */
+
+#carry button:hover{
+    color: grey;
+}
+#carry img{
+    background-color:rgb(226, 226, 247);
+    /* padding: 5px; */
+    height: 120px;
+}
+#carry{
+    padding-top: 100px;
+}
+#carry b{
+    font-size: 1.8rem;
+}
+
+/* sixth section */
+
+.item{
+    /* width: 60%; */
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 auto;
+    /* text-align: center; */
+    padding-bottom: 70px;
+}
+.item img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.item p{
+    padding: 30px 0;
+    line-height: 2;
+}
+.carousel-indicators li.active{
+    background-color: green;
+}
+.carousel-indicators li{
+    border: 1px groove orange !important;
+    /* background-color: orange; */
+}
+.carousel-control.left,.carousel-control.right{
+    background: none !important;
+    background-color: #f5f5f5f5;
+    color: #000;
+    /* border-radius: 100px; */
+}
+#hp h3{
+    font-size: 4rem;
+}
+
+/* seventh section */
+
+#ajanta img{
+    border-radius: 10px;
+}
+#lara{
+    margin: 40px 0;
+    font-size: 3rem;
+}
+#ajanta h4{
+    padding-top: 40px;
+}
+#ajanta h5{
+    padding-bottom: 200px;
+}
+#ajanta img:hover{
+    background-color: #fff;
+    opacity: .6;
+    transition-duration: 1s;
+}
+#ajanta a{
+    font-size: 1.7rem;
+    color: #000;
+}
+
+/* eighth section */
+
+#galaxy{
+    margin-top: 120px;
+    position: relative;
+}
+
+#galaxy span{
+    font-size: 1.5rem;
+    /* width: 40%; */
+    /* text-align: center; */
+    /* height: 20px; */
+}
+#galaxy input{
+    padding: 22px;
+}
+#galaxy .edited{
+    padding-bottom: 30px !important;
+    font-size: 2rem !important;
+}
+#andy{
+    position: absolute;
+    top: -250px;
+    right: 0;
+
+}
+
+
+/* nineth section */
+
+#alexa ul li{
+    list-style: none;
+}
+ #alexa{
+    padding-top: 50px;
+}
+#marine b{
+    font-size: 3.5rem;
+    color: #3B5D50;
+}
+#marine p, #alexa ul{
+    padding: 20px 0;
+    line-height: 2;
+}
+#marine i{
+    color: #3B5D50;
+    background-color: #f5f5f5f5;
+    padding: 15px;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+#marine i:hover{
+    background-color: #3B5D50;
+    color: #fff;
+}
+#alexa ul li:hover{
+    color: gray;
+}
+#marine{
+    border-bottom: 2px solid #3B5D50;
+    padding-bottom: 40px;
+    margin-top: 80px;
+}
+
+/* tenth section */
+
+#hcl{
+    margin-top: 30px;
+    padding-bottom: 50px;
+    font-size: 1.8rem;
+}
+#hcl a{
+    font-size: 1.7rem;
+    color: #000;
+    margin-right: 15px;
+}
+
+
+
+/* media queries */
+
+@media only screen and (max-width:1024px){
+
+   #matt{
+    padding-top: 150px;
+   } 
+   #carry img{
+    margin-bottom: 30px;
+   }
+   #alex {
+    position: absolute;
+    top: 225px;
+    left: 400px;
+    }
+    #olivia{
+        margin-top: 230px;
+    }
+}
+
+
+
+@media only screen and (max-width:768px){
+
+    #killer::before {
+        content: "";
+        position: absolute;
+        background-image: url(../images/dots-light.svg);
+        top: 130px;
+        right: -40px;
+        width: 0px;
+        height: 200px;
+        z-index: -1;
+    }
+    #killer img{
+        margin-top: 0px;
+    }
+    #carry img{
+        height: 0px;
+    }
+}
+
+
+@media only screen and (max-width:426px){
+
+    #alexa, #hcl p, #hcl a{
+        text-align: center;
+    }
+    #emily img{
+        margin-bottom: 70px;
+    }
+    #carry img {
+        height: 100%;
+    }
+    #ajanta h5 {
+        padding-bottom: 80px;
+    }
+    #galaxy{
+        margin-top: 200px;
+        width: 80%;
+        text-align: end;
+    }
+}
