@@ -523,4 +523,9 @@ nav li a:hover::before{
         top: 0px;
         left: 0px;
     }
+    #galaxy .edited {
+        padding-bottom: 30px !important;
+        font-size: 1.6rem !important;
+        margin-right: 50px;
+    }
 }
