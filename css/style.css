@@ -197,11 +197,9 @@ nav li a:hover::before{
 #maintain{
     padding-bottom: 130px;
 }
-
-.brandon{
-    /* margin-top: 20px; */
+.amy h5, #maintain{
+    text-align: center;
 }
-
 #john{
     margin-top: 100px;
     padding-bottom: 200px;
@@ -380,7 +378,9 @@ nav li a:hover::before{
     position: absolute;
     top: -250px;
     right: 0;
-
+}
+#marine p, #marine b, #alexa ul li, #hcl, #hcl a, #galaxy .edited{
+    color: #fff;
 }
 
 
@@ -528,4 +528,15 @@ nav li a:hover::before{
         font-size: 1.6rem !important;
         margin-right: 50px;
     }
+    .amy h5, #maintain{
+        text-align: center;
+    }
+    #marine p,#marine b, #alexa ul li, #hcl, #hcl a, #galaxy .edited{
+        color: #fff;
+    }
+    /* #andy{
+        position: relative;
+        top: 0px;
+        right: 0;
+    } */
 }
