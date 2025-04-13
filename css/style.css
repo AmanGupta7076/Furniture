@@ -10,12 +10,14 @@ html{
 .main{
     /* height: 75vh; */
     width: 100%;
-    background-color: #3B5D50 !important;
+    
     position: relative;
     z-index: 2;
     padding-bottom: 100px;
 }
-
+.grn{
+    background-color: #3B5D50 !important;
+}
 /* first section */
 
 #mynavigation{
@@ -235,6 +237,7 @@ nav li a:hover::before{
 .back-img img{
     border-radius: 20px;
     margin-top: 60px;
+    width: 100%;
 }
 
 #times h1{
@@ -380,7 +383,7 @@ nav li a:hover::before{
     right: 0;
 }
 #marine p, #marine b, #alexa ul li, #hcl, #hcl a, #galaxy .edited{
-    color: #fff;
+    /* color: #fff; */
 }
 
 
@@ -532,11 +535,11 @@ nav li a:hover::before{
         text-align: center;
     }
     #marine p,#marine b, #alexa ul li, #hcl, #hcl a, #galaxy .edited{
-        color: #fff;
+        /* color: #fff; */
     }
-    /* #andy{
+    #andy{
         position: relative;
         top: 0px;
         right: 0;
-    } */
+    }
 }
