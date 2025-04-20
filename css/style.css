@@ -389,8 +389,9 @@ nav li a:hover::before{
 
 /* nineth section */
 
-#alexa ul li{
+#alexa ul li, #alexa ul a{
     list-style: none;
+    text-decoration: none;
 }
  #alexa{
     padding-top: 50px;
@@ -415,7 +416,10 @@ nav li a:hover::before{
     background-color: #3B5D50;
     color: #fff;
 }
-#alexa ul li:hover{
+#alexa ul a{
+    color: #000;
+}
+#alexa ul li:hover, #alexa ul a:hover{
     color: gray;
 }
 #marine{
@@ -444,7 +448,7 @@ nav li a:hover::before{
 @media only screen and (max-width:1024px){
 
    #matt{
-    padding-top: 150px;
+    padding-top: 100px;
    } 
    #carry img{
     margin-bottom: 30px;
@@ -518,7 +522,7 @@ nav li a:hover::before{
     #lara b{
         font-size: 1.8rem;
     }
-    #carry, #hp, #matt{
+    #carry, #hp{
         margin-top: 50px;
     }
     #alex{
@@ -529,7 +533,7 @@ nav li a:hover::before{
     #galaxy .edited {
         padding-bottom: 30px !important;
         font-size: 1.6rem !important;
-        margin-right: 50px;
+        margin-right: 70px;
     }
     .amy h5, #maintain{
         text-align: center;
