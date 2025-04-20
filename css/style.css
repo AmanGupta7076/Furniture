@@ -488,6 +488,9 @@ nav li a:hover::before{
 
 @media only screen and (max-width:426px){
 
+    .main{
+        padding-bottom: 0px;
+    }
     #alexa, #hcl p, #hcl a{
         text-align: center;
     }
@@ -545,5 +548,9 @@ nav li a:hover::before{
         position: relative;
         top: 0px;
         right: 0;
+    }
+    #spce{
+        padding: 20px 0;
+        margin-left: 15px;
     }
 }
